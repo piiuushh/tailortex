@@ -1,0 +1,27 @@
+# Production-safe Streamlit settings (no secrets in this file - it is committed)
+
+[server]
+headless = true
+# max upload size in MB (a .tex resume or JD is a few KB)
+maxUploadSize = 1
+# CSRF protection for uploads and CORS lock-down (both are Streamlit defaults; pinned so nobody turns them off)
+enableXsrfProtection = true
+enableCORS = true
+# don't serve files from a ./static folder
+enableStaticServing = false
+
+[browser]
+# no anonymous usage stats sent to Streamlit
+gatherUsageStats = false
+
+[client]
+# never show Python tracebacks (file paths, code) to visitors
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
+[logger]
+# don't log request details; errors only
+level = "error"
+
+[theme]
+base = "dark"
