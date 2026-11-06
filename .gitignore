@@ -1,0 +1,24 @@
+# personal data - never commit
+.env
+facts.md
+my_resume*.tex
+*_resume.tex
+!examples/*.tex
+!tests/fixtures/*.tex
+output/
+.streamlit/secrets.toml
+
+# python / latex junk
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# plan cache
+.tailortex_cache/

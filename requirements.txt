@@ -1,0 +1,3 @@
+# used by Streamlit Community Cloud; for local dev prefer: pip install -e ".[web,dev]"
+-e .
+streamlit>=1.46
