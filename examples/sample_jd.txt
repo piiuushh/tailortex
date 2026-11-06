@@ -1,0 +1,19 @@
+Senior Data Analyst - Lending Analytics
+FinServe Technologies, Bengaluru (Hybrid)
+
+About the role
+We are looking for a Data Analyst to own reporting and insights for our lending business.
+
+What you'll do
+- Build and maintain self-serve dashboards in Power BI for business stakeholders
+- Write complex SQL to analyse loan disbursal, collections and credit risk data
+- Automate ETL pipelines using Python and Airflow on AWS
+- Design and analyse A/B tests and communicate insights to leadership
+- Ensure data quality through automated validation checks
+
+What we're looking for
+- 1-3 years of experience in analytics, ideally in fintech or lending
+- Strong SQL and Python (Pandas)
+- Experience with Power BI or Tableau
+- Familiarity with AWS (S3, Athena, Redshift) and dbt
+- Excellent stakeholder management and storytelling skills

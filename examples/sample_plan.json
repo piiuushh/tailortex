@@ -1,0 +1,215 @@
+{
+  "company": "FinServe Technologies",
+  "role": "Senior Data Analyst - Lending Analytics",
+  "jd_keywords": [
+    {
+      "term": "Power BI",
+      "kind": "tool"
+    },
+    {
+      "term": "SQL",
+      "kind": "tool"
+    },
+    {
+      "term": "Python",
+      "kind": "tool"
+    },
+    {
+      "term": "Pandas",
+      "kind": "tool"
+    },
+    {
+      "term": "Airflow",
+      "kind": "tool"
+    },
+    {
+      "term": "AWS",
+      "kind": "tool"
+    },
+    {
+      "term": "Athena",
+      "kind": "tool"
+    },
+    {
+      "term": "Redshift",
+      "kind": "tool"
+    },
+    {
+      "term": "dbt",
+      "kind": "tool"
+    },
+    {
+      "term": "A/B tests",
+      "kind": "skill"
+    },
+    {
+      "term": "ETL pipelines",
+      "kind": "skill"
+    },
+    {
+      "term": "data quality",
+      "kind": "skill"
+    },
+    {
+      "term": "lending",
+      "kind": "domain"
+    },
+    {
+      "term": "stakeholder management",
+      "kind": "soft"
+    },
+    {
+      "term": "storytelling",
+      "kind": "soft"
+    },
+    {
+      "term": "self-serve dashboards",
+      "kind": "skill"
+    },
+    {
+      "term": "fintech",
+      "kind": "domain"
+    },
+    {
+      "term": "Tableau",
+      "kind": "tool"
+    }
+  ],
+  "section_order": [
+    "Skills Summary",
+    "Experience",
+    "Projects",
+    "Education"
+  ],
+  "bullets": [
+    {
+      "id": "u01",
+      "title": "Languages",
+      "text": "SQL, Python, Pandas, NumPy, R, Scikit-learn",
+      "relevance": 9,
+      "keep": true
+    },
+    {
+      "id": "u02",
+      "title": "BI & Visualisation",
+      "text": "Power BI, Tableau, Excel, Looker Studio",
+      "relevance": 9,
+      "keep": true
+    },
+    {
+      "id": "u03",
+      "title": "Data & Cloud",
+      "text": "AWS (S3, Athena), Airflow, PostgreSQL, Spark, Git",
+      "relevance": 9,
+      "keep": true
+    },
+    {
+      "id": "u04",
+      "title": "Soft Skills",
+      "text": "Stakeholder Management, Storytelling, Mentoring",
+      "relevance": 6,
+      "keep": true
+    },
+    {
+      "id": "u05",
+      "title": "Lending Dashboards",
+      "text": "Built self-serve Power BI dashboards on loan disbursal and collections for 12 regional business stakeholders, replacing a manual Excel process.",
+      "relevance": 10,
+      "keep": true
+    },
+    {
+      "id": "u06",
+      "title": "ETL Pipelines",
+      "text": "Automated ETL pipelines in SQL, Python and dbt on AWS Athena that refresh 3M+ rows nightly, cutting report preparation time by 70%.",
+      "relevance": 10,
+      "keep": true
+    },
+    {
+      "id": "u07",
+      "title": "A/B Testing",
+      "text": "Designed and analysed A/B tests on the onboarding funnel and presented insights to leadership that lifted completion rate by 9%.",
+      "relevance": 9,
+      "keep": true
+    },
+    {
+      "id": "u08",
+      "title": "Office Operations",
+      "text": "Coordinated the team's offsite logistics and vendor payments for 40 attendees.",
+      "relevance": 1,
+      "keep": false
+    },
+    {
+      "id": "u09",
+      "title": "Forecasting",
+      "text": "Built a demand forecasting model in Python (Prophet) for 200 SKUs, reducing stock-outs by 18%.",
+      "relevance": 5,
+      "keep": true
+    },
+    {
+      "id": "u10",
+      "title": "Data Quality",
+      "text": "Built automated data-validation checks in Airflow that caught pipeline breaks before they reached business users.",
+      "relevance": 9,
+      "keep": true
+    },
+    {
+      "id": "u11",
+      "title": "Churn Prediction",
+      "text": "Trained a gradient-boosting churn model on 50K telecom customers (AUC 0.86) and served it with a Streamlit app. \\\\\n      \\textit{Tech: Python, Scikit-learn, Streamlit} \\hfill \\href{https://github.com/example/churn}{GitHub: example/churn}",
+      "relevance": 6,
+      "keep": true
+    },
+    {
+      "id": "u12",
+      "title": "Sales Dashboard",
+      "text": "Designed an interactive Tableau dashboard of 5 years of retail sales with drill-downs by region and category for business stakeholders.",
+      "relevance": 7,
+      "keep": true
+    }
+  ],
+  "group_orders": [
+    {
+      "group": "g1",
+      "order": [
+        "u01",
+        "u02",
+        "u03",
+        "u04"
+      ]
+    },
+    {
+      "group": "g2",
+      "order": [
+        "u05",
+        "u06",
+        "u07",
+        "u08"
+      ]
+    },
+    {
+      "group": "g3",
+      "order": [
+        "u10",
+        "u09"
+      ]
+    },
+    {
+      "group": "g4",
+      "order": [
+        "u12",
+        "u11"
+      ]
+    }
+  ],
+  "gaps": [
+    "No Redshift experience shown",
+    "No dbt experience shown",
+    "No direct lending/credit-risk modelling"
+  ],
+  "change_summary": [
+    "Re-labelled bullets with the JD's language (lending dashboards, ETL pipelines, A/B testing)",
+    "Moved data-quality work to the top of the internship",
+    "Put the Tableau dashboard project first",
+    "Dropped the office-operations bullet as irrelevant"
+  ]
+}

@@ -1,0 +1,138 @@
+%-------------------------
+% Sample resume (fictional person) for tailortex
+% Based on the Sourabh Bajaj resume template (MIT)
+%-------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Aarav Mehta} & \\
+  Linkedin: \href{https://www.linkedin.com/in/example/}{linkedin.com/in/example} & Email: \href{mailto:aarav@example.com}{aarav@example.com}\\
+  Github: \href{https://github.com/example}{github.com/example} & Mobile: +91-90000-00000 \\
+\end{tabular*}
+
+%-----------SKILLS-----------------
+\section{Skills Summary}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{Python, SQL, R, Pandas, NumPy, Scikit-learn}
+    \resumeSubItem{BI \& Visualisation}{Power BI, Tableau, Looker Studio, Excel}
+    \resumeSubItem{Data \& Cloud}{AWS (S3, Athena), PostgreSQL, Spark, Airflow, Git}
+    \resumeSubItem{Soft Skills}{Stakeholder Management, Storytelling, Mentoring}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Example Institute of Technology}{Delhi, India}
+      {B.Tech - Computer Science}{Aug 2021 - May 2025}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Acme Fintech}{Bengaluru}
+      {Data Analyst}{July 2025 - Present}
+      \resumeItemListStart
+        \resumeItem{Reporting}
+          {Built weekly Power BI dashboards on loan disbursal and collections for 12 regional managers, replacing a manual Excel process.}
+        \resumeItem{Pipelines}
+          {Wrote SQL and Python jobs on AWS Athena that refresh 3M+ rows nightly, cutting report preparation time by 70\%.}
+        \resumeItem{Experimentation}
+          {Analysed A/B tests on the onboarding funnel and presented findings that lifted completion rate by 9\%.}
+        \resumeItem{Office Operations}
+          {Coordinated the team's offsite logistics and vendor payments for 40 attendees.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Beta Retail}{Remote}
+      {Analytics Intern}{Jan 2025 - June 2025}
+      \resumeItemListStart
+        \resumeItem{Forecasting}
+          {Built a demand forecasting model in Python (Prophet) for 200 SKUs, reducing stock-outs by 18\%.}
+        \resumeItem{Data Quality}
+          {Created automated data-validation checks in Airflow that caught pipeline breaks before they reached business users.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Churn Prediction}
+      {Trained a gradient-boosting churn model on 50K telecom customers (AUC 0.86) and served it with a Streamlit app. \\
+      \textit{Tech: Python, Scikit-learn, Streamlit} \hfill \href{https://github.com/example/churn}{GitHub: example/churn}}
+    \resumeSubItem{Sales Dashboard}
+      {Designed an interactive Tableau dashboard of 5 years of retail sales with drill-downs by region and category.}
+  \resumeSubHeadingListEnd
+
+% \resumeSubItem{Commented Out}{This bullet is commented out and must be ignored by the parser.}
+
+\end{document}
